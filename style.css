@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button:hover{
+    border: hsl(150, 100%, 66%) 4px solid;
+    box-shadow: 0 0 20px hsl(150, 100%, 66%),0 0 20px hsl(150, 100%, 66%),0 0 20px hsl(150, 100%, 66%) ;
+}
